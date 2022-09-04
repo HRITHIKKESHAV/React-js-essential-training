@@ -1,0 +1,31 @@
+Here, we will learn about the concepts of some of the developer tools in react js. So, primarily we will be installing the react developer tool to chrome
+website. Then add that extension to the chrome. After that we can head into the particular website like airbnb and after that we have to press ctrl+shift+j
+there we can see the additional components thing based on react.
+In the list of extensions found we have to enable the "allow access to the urls" so that we can get that when we are accessing any url.
+we can even do on the browsers by just typing "react.new" so this creates the new sandbox page where we can work similar to the vscode.
+
+here similar to the html pages.What we can do here is.
+<html>
+	<head>
+		<title>nothing that important</title>
+	</head>
+	<body>
+		<h1>let this be the heading</h1>
+	<script type=text/javascript>
+		let ul = React.createElement(
+		"ul",
+		{ style: {color:"blue"}},
+		React.createElement("li",null,"save"),
+		React.createElement("li",null,"me"),
+		React.createElement("li",null,"JSX")
+	);
+	
+	ReactDOM.render(
+		ul,
+		document.getElementById("root")
+	);
+	</script>
+	</body>
+</html>
+
+get to know about babeljs.io where we can paste the not working code and get the output of correctly working 
